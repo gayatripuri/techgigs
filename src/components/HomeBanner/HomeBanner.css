@@ -94,6 +94,9 @@ p {
   font-size: 20px;
 }
 
+.mouse{
+    text-decoration: none;
+}
 /* Extra small devices (phones, 320px and down) */
 @media (max-width: 320px) {
   .homeMainBannerSection {

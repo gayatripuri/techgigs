@@ -31,7 +31,7 @@ const HomeBanner = ({ scrollToSection }) => {
 
                 <div
                   className="scrollBox">
-                   <p> <a href="#about-us">
+                   <p> <a href="#about-us" className="mouse">
                     Scroll Down <img src={ScrollMouse} alt="scroll Mouse" />
                   </a></p>
                   
