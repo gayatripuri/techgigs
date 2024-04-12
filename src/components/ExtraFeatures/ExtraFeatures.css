@@ -1,0 +1,108 @@
+.extndFeatureHeading {
+  margin: 0 auto 30px auto;
+  text-align: center;
+  position: relative;
+}
+.extndFeatureHeading h3 {
+  font-size: 22px;
+  font-weight: 400;
+  color: #3339ca;
+  text-transform: uppercase;
+}
+.extndFeatureHeading h2 {
+  font-weight: 600;
+  font-size: 30px;
+  margin: 10px auto;
+}
+.extndFeatureHeading p {
+  font-size: 15px;
+}
+.extendFeatures {
+  background: #f2f2f2;
+}
+.extendSec {
+  margin-top: 60px;
+  position: relative;
+}
+.extendSec .row {
+  justify-content: center;
+}
+.extendCntens h3 {
+  font-size: 22px;
+  font-weight: 400;
+  color: #3339ca;
+  text-transform: capitalize;
+}
+.extendCntens p {
+  font-size: 15px;
+  color: #595959;
+}
+.extendCntens ul {
+  display: flex;
+  margin: 30px 0px 40px 0px;
+}
+.extendCntens ul li {
+  margin-right: 10px;
+}
+.extendCntens ul li img {
+  width: 42px;
+}
+.extendSec:before {
+  content: "";
+  background: url(../../assets/Ellipse-335.png);
+  position: absolute;
+  left: 30px;
+  width: 110px;
+  background-size: contain;
+  height: 200px;
+  background-repeat: no-repeat;
+  top: -170px;
+}
+.extendSec:after {
+  content: "";
+  background: url(../../assets/Ellipse-334.png);
+  position: absolute;
+  right: 0;
+  width: 170px;
+  background-size: contain;
+  height: 200px;
+  background-repeat: no-repeat;
+  bottom: 0;
+}
+
+.extendfeaturesImages {
+  position: relative;
+}
+.mobileimg {
+  position: absolute;
+  top: 108px;
+  left: 126px;
+  width: 40%;
+}
+
+@media (max-width: 320px) {
+  .mobileimg {
+    position: absolute;
+    top: 70px;
+    left: 91px;
+    width: 43%;
+  }
+}
+
+@media (min-width: 321px) and (max-width: 576px) {
+  .mobileimg {
+    position: absolute;
+    top: 74px;
+    left: 99px;
+    width: 43%;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 1200px) {
+  .mobileimg {
+    position: absolute;
+    top: 50px;
+    left: 70px;
+    width: 43%;
+  }
+}

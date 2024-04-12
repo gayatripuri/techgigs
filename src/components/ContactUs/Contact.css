@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: "Poppins", sans-serif;
+  font-size: 16px;
+}
+
+ul {
+  list-style: none;
+}
+
+input {
+  overflow: hidden;
+}
+.homeContactSection {
+  background: url(../../assets/cntctBG.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 60px 0px;
+  background-position: right center;
+}
+.homeContactSec {
+  margin: 0 auto 30px auto;
+  text-align: left;
+  position: relative;
+}
+.homeContactSec h3 {
+  font-size: 22px;
+  font-weight: 400;
+  color: #3339ca;
+  text-transform: uppercase;
+}
+.homeContactSec h2 {
+  font-weight: 600;
+  font-size: 30px;
+  margin: 10px auto;
+}
+.homeContactSec p {
+  font-size: 15px;
+}
+.contactDetails ul {
+  list-style: none;
+  display: flex;
+  padding-left: 30px;
+  margin-bottom: 30px;
+}
+.contactDetails ul li {
+  margin-right: 10px;
+}
+.contactDetails ul li img {
+  width: 25px;
+}
+.contactDetails ul li h3 {
+  font-size: 20px;
+  margin-bottom: 0px;
+}
+.contactDetails ul li a {
+  text-decoration: none;
+  color: #595959;
+  font-size: 14px;
+  display: inline-block;
+}
+.contactDetails ul li p {
+  color: #595959;
+  font-size: 14px;
+}
+.formField {
+  margin-top: 20px;
+}
+.formField input {
+  background: #fff;
+  border: 1px solid #595959;
+  outline: none;
+  border-radius: 50px;
+  padding: 10px 20px;
+  width: 100%;
+}
+.formField textarea {
+  width: 100%;
+  height: 180px;
+  border-radius: 10px;
+  resize: none;
+  outline: none;
+  padding: 10px 20px;
+}
+.homeContactForm {
+  padding-top: 25px;
+}

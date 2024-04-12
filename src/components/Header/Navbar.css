@@ -1,0 +1,49 @@
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  padding: 0px 20px;
+  z-index: 999;
+  background: #fff;
+}
+.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  color: aquamarine;
+}
+.navbarui {
+  flex-grow: inherit !important;
+}
+.mainLogo {
+  width: 200px;
+}
+.mainLogo img {
+  width: 100%;
+}
+.nav-item .nav-link {
+  font-weight: 600;
+  color: #4f4f4f;
+  padding: 7px 16px !important;
+}
+a.nav-link.active {
+  color: #5d5fef !important;
+}
+.nav-item .nav-link:hover {
+  color: #5d5fef;
+}
+.buyNowbtn {
+  background: #5d5fef;
+  padding: 10px 20px;
+  border-radius: 4px;
+  color: #fff;
+}
+
+@media (max-width: 320px) {
+  .mainLogo {
+    width: 45%;
+  }
+}

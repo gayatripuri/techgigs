@@ -1,0 +1,181 @@
+.ourImpactHeading {
+  margin: 0 auto 50px auto;
+  text-align: center;
+  position: relative;
+}
+.ourImpactHeading h3 {
+  font-size: 22px;
+  font-weight: 400;
+  color: #3339ca;
+  text-transform: uppercase;
+}
+.ourImpactHeading h2 {
+  font-weight: 600;
+  font-size: 30px;
+  margin: 10px auto;
+}
+.ourImpactHeading p {
+  font-size: 15px;
+}
+.ourImpactHeading:after {
+  content: "";
+  background: url(../../assets/CircleWho.png);
+  position: absolute;
+  right: 0px;
+  width: 50px;
+  background-size: contain;
+  height: 20px;
+  background-repeat: no-repeat;
+  top: 0;
+}
+.ourImpactHeading:before {
+  content: "";
+  background: url(../../assets/RectangleWho.png);
+  position: absolute;
+  left: -0%;
+  width: 50px;
+  background-size: contain;
+  height: 20px;
+  background-repeat: no-repeat;
+  bottom: 0;
+}
+.ceoMsg {
+  margin-top: 50px;
+  background: url(../../assets/Rectangle.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 60px 50px;
+  border-radius: 50px;
+  position: relative;
+  overflow: hidden;
+}
+.ceoImage {
+  border-radius: 20px;
+  border: 5px solid #fff;
+  overflow: hidden;
+  position: relative;
+  z-index: 9;
+}
+
+.ceoMsg .row {
+  align-items: center;
+}
+.ceoIContent {
+  padding: 20px;
+  position: relative;
+  z-index: 9;
+  text-align: left;
+}
+.ceoIContent h4 {
+  color: #fff;
+  font-weight: 300;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+.ceoIContent h5 {
+  color: #ffde68;
+  font-size: 25px;
+}
+.ceoIContent p {
+  color: #fff;
+  font-size: 20px;
+}
+.ceoMsg::before {
+  content: "";
+  position: absolute;
+  background-image: url(../../assets/Groups.png);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #0000000a;
+  /* z-index: -1; */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.ceoMsg::after {
+  content: "";
+  position: absolute;
+  background-image: url(../../assets/Line_pattern.png);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #0000000a;
+  /* z-index: -1; */
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.ourImpactSection {
+  position: relative;
+}
+.ourImpactSection:before {
+  content: "";
+  background: url(../../assets/Ellipse.png);
+  position: absolute;
+  left: -20px;
+  width: 130px;
+  background-size: contain;
+  height: 180px;
+  background-repeat: no-repeat;
+  top: 50%;
+}
+.ourImpactSection:after {
+  content: "";
+  background: url(../../assets/Arrow.png);
+  position: absolute;
+  right: 20px;
+  width: 80px;
+  background-size: contain;
+  height: 70px;
+  background-repeat: no-repeat;
+  top: 40%;
+}
+
+/* For Extra small devices (phones, 320px and down) */
+@media (max-width: 320px) {
+  .ourImpactHeading h2 {
+    font-size: 24px;
+  }
+  .ceoIContent h4 {
+    font-size: 16px;
+  }
+  .ceoIContent h5 {
+    font-size: 13px;
+  }
+  .ceoIContent p {
+    font-size: 13px;
+  }
+}
+
+/* For Small devices (phones, 321px to 576px) */
+@media (min-width: 321px) and (max-width: 576px) {
+  .ourImpactHeading h2 {
+    font-size: 26px;
+  }
+  .ceoIContent h4 {
+    font-size: 15px;
+  }
+  .ceoIContent h5 {
+    font-size: 15px;
+  }
+  .ceoIContent p {
+    font-size: 13px;
+  }
+}
+
+/* For Medium devices (portrait tablets and large phones, 577px to 768px) */
+@media (min-width: 577px) and (max-width: 768px) {
+  .ourImpactHeading h2 {
+    font-size: 28px;
+  }
+  .ceoIContent h4 {
+    font-size: 24px;
+  }
+  .ceoIContent h5 {
+    font-size: 26px;
+  }
+  .ceoIContent p {
+    font-size: 22px;
+  }
+}

@@ -1,0 +1,269 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+}
+
+h1 {
+  font-size: 2.5rem;
+  font-weight: 900;
+  text-transform: uppercase;
+  margin-top: 2em;
+  margin-bottom: 0;
+}
+.pricingPlane {
+  background: #fbfbfb;
+}
+.pricingplaneInnerSection {
+  position: relative;
+}
+.pricingplaneInnerSection:before {
+  content: "";
+  background: url(../../assets/Ellipse-Green.png);
+  position: absolute;
+  left: 50px;
+  width: 200px;
+  background-size: contain;
+  height: 200px;
+  background-repeat: no-repeat;
+  top: 40px;
+}
+.pricingplaneInnerSection:after {
+  content: "";
+
+  position: absolute;
+  right: 0;
+  width: 200px;
+  background-size: contain;
+  height: 200px;
+  background-repeat: no-repeat;
+  bottom: 0;
+}
+.pricingHeading {
+  margin: 0 auto 50px auto;
+  text-align: center;
+}
+.pricingHeading h3 {
+  font-size: 22px;
+  font-weight: 400;
+  color: #3339ca;
+  text-transform: uppercase;
+}
+.pricingHeading h2 {
+  font-weight: 600;
+  font-size: 30px;
+  margin: 10px auto;
+}
+.pricingHeading p {
+  font-size: 15px;
+}
+
+.pricingHeading {
+  margin: 0 auto 50px auto;
+  text-align: center;
+}
+.pricingHeading h3 {
+  font-size: 22px;
+  font-weight: 400;
+  color: #3339ca;
+  text-transform: uppercase;
+}
+.pricingHeading h2 {
+  font-weight: 600;
+  font-size: 30px;
+  margin: 10px auto;
+}
+.pricingHeading p {
+  font-size: 15px;
+}
+.pricingPlane .row {
+  justify-content: center;
+}
+.pricingplanecSec {
+  border: 1px solid #3339ca;
+  border-radius: 20px;
+  padding: 40px;
+  margin: 0px 10px;
+  text-align: center;
+}
+.pricingplanecSec h3 {
+  font-size: 22px;
+  text-transform: uppercase;
+}
+.pricingplanecSec p {
+  font-size: 16px;
+}
+.pricingplanecSec h4 {
+  margin: 20px;
+  font-size: 20px;
+}
+.pricingplanecSec h4 span {
+  font-size: 14px;
+}
+.tryfreebtn {
+  background: #5d5fef;
+  color: #fff;
+  padding: 10px 25px;
+  display: inline-block;
+  border-radius: 50px;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.pricingplanecSec.active {
+  background: #5d5fef;
+  color: #fff;
+  transform: scale(1.1);
+  position: relative;
+}
+.pricingplanecSec.active h3 {
+  color: #ffcb14;
+}
+.pricingplanecSec.active .tryfreebtn {
+  background: #fff;
+  color: #5d5fef;
+}
+.trustedcontnt {
+  text-align: left;
+  margin-top: 100px;
+  margin-left: 100px;
+  position: relative;
+}
+
+.innertrstCont h3 {
+  font-size: 22px;
+  text-transform: uppercase;
+  color: #5d5fef;
+}
+.innertrstCont h2 {
+  font-size: 28px;
+}
+.innertrstCont p {
+  font-size: 18px;
+}
+.pricingplanecSec.active:before {
+  content: "";
+  background: url(../../assets/Rectangle-1551.png);
+  position: absolute;
+  left: 20px;
+  width: 30px;
+  background-size: contain;
+  height: 30px;
+  background-repeat: no-repeat;
+  top: -20px;
+}
+.pricingplanecSec.active:after {
+  content: "";
+  background: url(../../assets/Rectangle-1550.png);
+  position: absolute;
+  right: 24px;
+  width: 20px;
+  background-size: contain;
+  height: 20px;
+  background-repeat: no-repeat;
+  bottom: 0;
+}
+
+.trustedcontnt:after {
+  content: "";
+  background: url(../../assets/Star-4.png);
+  position: absolute;
+  right: 60px;
+  width: 40px;
+  background-size: contain;
+  height: 40px;
+  background-repeat: no-repeat;
+  bottom: 50px;
+}
+.trustedcontnt .row {
+  justify-content: flex-start;
+}
+
+/* Extra small devices (phones, 320px and down) */
+@media (max-width: 320px) {
+  .pricingHeading h2 {
+    font-size: 24px;
+  }
+  .pricingplaneInnerSection:before,
+  .pricingplaneInnerSection:after {
+    display: none;
+  }
+  .pricingplanecSec {
+    padding: 20px;
+    margin-top: 30px;
+  }
+  .pricingplanecSec h4 {
+    font-size: 18px;
+  }
+  .pricingplanecSec.active:before {
+    left: 10px;
+  }
+  .trustedcontnt {
+    margin-top: 50px;
+    margin-left: 20px;
+  }
+  .innertrstCont {
+    right: -80px;
+  }
+}
+
+/* Small devices (phones, 321px to 576px) */
+@media (min-width: 321px) and (max-width: 576px) {
+  .pricingHeading h2 {
+    font-size: 28px;
+  }
+  .pricingplaneInnerSection:before {
+    width: 150px;
+    height: 150px;
+  }
+  .pricingplaneInnerSection:after {
+    width: 150px;
+    height: 150px;
+  }
+  .pricingplanecSec {
+    margin: 10px;
+    position: relative;
+    top: -27px;
+  }
+  .pricingplanecSec h3 {
+    font-size: 18px;
+  }
+  .pricingplanecSec p {
+    font-size: 14px;
+  }
+  .pricingplanecSec h4 {
+    font-size: 16px;
+  }
+  .tryfreebtn {
+    font-size: 12px;
+  }
+  .trustedcontnt {
+    margin-top: 80px;
+    margin-left: 0;
+  }
+
+  .pricingplaneInnerSection {
+    right: 80px;
+    left: -9px;
+  }
+  .innertrstCont {
+    padding: 0 30px;
+  }
+  .pricingplanecSec.active {
+    margin: 10px 20px;
+  }
+}
+
+/* Medium devices (portrait tablets and large phones, 577px to 768px) */
+@media (min-width: 577px) and (max-width: 768px) {
+  .pricingplanecSec h4 {
+    font-size: 18px;
+  }
+}
