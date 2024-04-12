@@ -1,5 +1,4 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React from "react"
 import "./HomeBanner.css";
 import HomeBannerImag from "../../assets/HomeBannerBackground.png";
 import BannerFemale from "../../assets/Female-Charater.png";
@@ -25,17 +24,17 @@ const HomeBanner = ({ scrollToSection }) => {
                 <h2>
                   Shop Smart, Shop Easy: With our Ultimate Mobile Marketplace!
                 </h2>
-                <Link className="demoBtn" to="/about-us">
-                  get a demo <img src={RightArrow} alt="Right Arrow" />
-                </Link>
+                <a href="#about-us" className="demoBtn">
+                get a demo <img src={RightArrow} alt="Right Arrow" />
+                  </a>
+                
 
                 <div
-                  className="scrollBox"
-                  onClick={() => scrollToSection("whoweareSec")}
-                >
-                  <p>
+                  className="scrollBox">
+                   <p> <a href="#about-us">
                     Scroll Down <img src={ScrollMouse} alt="scroll Mouse" />
-                  </p>
+                  </a></p>
+                  
                 </div>
               </div>
             </div>
